@@ -31,8 +31,8 @@ plt.rcParams['figure.dpi'] = 150
 # Отключаем сохранение табличных файлов.
 pd.DataFrame.to_csv = lambda self, *args, **kwargs: None
 pd.Series.to_csv = lambda self, *args, **kwargs: None
-DEFAULT_INPUT = "/home/konnilol/Downloads/Silosrazn.xlsx"
-DEFAULT_OUTPUT = "/home/konnilol/Documents/настино/silage_full_project_outputs"
+DEFAULT_INPUT = "Silosrazn.xlsx"
+DEFAULT_OUTPUT = "silage_full_project_outputs"
 YEAR_COL = 'Год'
 TYPE_COL = 'тип_силоса'
 QUALITY_COL = 'качество_корма'
